@@ -5,9 +5,33 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+
+  background-image:  url("https://media.istockphoto.com/vectors/modern-cinema-background-with-realistic-3d-cinema-film-strip-in-on-vector-id1204686345?k=20&m=1204686345&s=170667a&w=0&h=c_mBREAiUy8viYniUznGlwmAZ7hRmB-hCphmcq92dMk=");
+
+  
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+
+
+background-color: black;
+
+
+  
+  color: white
+;
 }
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
