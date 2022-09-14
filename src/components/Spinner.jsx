@@ -3,7 +3,7 @@
 export function Spinner() {
   return  (
     <div >
-        HAAHHAHHAAHHAHAHHAHAHHHHHAHAHHHHHAHA
+        HAAHHAHHAAHHAHAHHAHAHHHHHAHAHHHHHAHANANA
     </div>
   )
 }
