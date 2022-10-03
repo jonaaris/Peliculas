@@ -16,8 +16,8 @@ export function App(){
   return (<Router>
     <header >
       <Link to='/'><h1 className={styles.title}>Movies</h1> </Link>
-      <Link to='/'>Home</Link>
-      <Link to='/movie'>Movie</Link>
+      <Link to='/'></Link>
+      <Link to='/movie'></Link>
     </header>
     <main>
       <Routes>
