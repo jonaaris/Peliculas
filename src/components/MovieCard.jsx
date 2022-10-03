@@ -1,9 +1,13 @@
 import { Link } from 'react-router-dom';
-import stilo from './MovieCard.module.css'
+import stilo from './MovieCard.module.css' 
+import { getMovieImg } from '../utils/getMovieImg';
 
 export function MovieCard({movie}) {
  // console.log(stilo)
-  const imageUrl = 'https://image.tmdb.org/t/p/w300' +movie.poster_path;
+ const imageUrl = getMovieImg(movie.poster_path, 300);
+/*   const imageUrl = movie.poster_path 
+  ?  'https://image.tmdb.org/t/p/w300' +movie.poster_path 
+  : placeholder; */
 
   return <li className={stilo.movieCard}>
     <Link to={'/movies/' +movie.id}>

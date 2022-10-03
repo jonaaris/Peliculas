@@ -5,5 +5,10 @@
     0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
 }
 
+.error {
+  text-align: center;
+  font-size: 3rem;
+  
+}
 
 
